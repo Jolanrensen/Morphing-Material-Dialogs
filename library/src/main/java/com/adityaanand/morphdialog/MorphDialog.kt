@@ -102,7 +102,7 @@ class MorphDialog private constructor(var builder: Builder) {
         }
     }
 
-    class Builder(val activity: Activity, val fab: FloatingActionButton) {
+    class Builder(val activity: Activity, val fab: View) {
         val data: DialogBuilderData = DialogBuilderData()
 
         internal var onPositiveCallback: MorphSingleButtonCallback? = null
